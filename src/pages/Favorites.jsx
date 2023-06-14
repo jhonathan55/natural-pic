@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { FavoritesContext } from '../components/FavoritesContext';
 const Favorites = () => {
     const { favorites } = useContext(FavoritesContext);
-
     return (
         <div className='mt-5'>
             {favorites.map((product) => (

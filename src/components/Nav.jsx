@@ -20,7 +20,7 @@ const Nav = () => {
                             <Link className="nav-link text-light" to="/products">Productos</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-light" to="/mas">Mas</Link>
+                            <Link className="nav-link text-light" to="/pokemon">Pokemon</Link>
                         </li>
                     </ul>
                 </div>
